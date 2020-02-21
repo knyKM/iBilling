@@ -1,0 +1,8 @@
+//Example Installer File for Plugins Notes
+//File Name: notes.pl
+//Researched & Developed by Sadia Sharmin
+Installer::install('notes.pl');
+Installer::put('notes.php','sysfrm/controllers/');
+Installer::put('notes.tpl','ui/theme/softhash/');
+Installer::put('notes.js','ui/theme/softhash/lib/');
+Installer::sql('notes.sql');
